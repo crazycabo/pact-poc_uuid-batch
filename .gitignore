@@ -16,3 +16,12 @@ jspm_packages
 **/logs
 **/coverage
 **/pacts
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/

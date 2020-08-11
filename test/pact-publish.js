@@ -1,5 +1,4 @@
 let publisher = require('@pact-foundation/pact-node');
-let path = require('path');
 
 let opts = {
   pactBroker: process.env.PACT_BROKER_URL,

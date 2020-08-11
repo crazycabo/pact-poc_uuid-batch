@@ -1,11 +1,6 @@
-import cors from 'cors'
 import express from 'express'
-
 import { IndexRouter } from './controllers/v0/index.router'
-
 import bodyParser from 'body-parser'
-import { config } from './config/config'
-import { V0_UUID_MODELS } from './controllers/v0/model.index'
 
 (async () => {
   const app = express()

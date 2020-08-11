@@ -1,11 +1,7 @@
 import { Router, Request, Response } from 'express'
 import { UUIDItem } from '../models/UUIDItem'
-import { NextFunction } from 'connect'
-import * as AWS from '../../../../aws'
-import * as c from '../../../../config/config'
 import * as request from 'superagent'
 import { createLogger } from '../../../../utils/logger'
-import { uuid, isUuid } from 'uuidv4'
 
 const logger = createLogger('uuid')
 const router: Router = Router()

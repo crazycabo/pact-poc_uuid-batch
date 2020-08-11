@@ -1,9 +1,8 @@
 import * as chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import chaiHttp from 'chai-http'
 import path = require("path")
 import * as request from 'superagent'
-import { Pact, Interaction, Matchers } from '@pact-foundation/pact'
+import { Pact, Matchers } from '@pact-foundation/pact'
 import { UUIDItem } from '../src/controllers/v0/uuid/models/UUIDItem'
 
 const expect = chai.expect
