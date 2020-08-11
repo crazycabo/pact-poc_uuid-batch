@@ -1,0 +1,18 @@
+# Packages
+node_modules
+jspm_packages
+
+# Serverless
+.serverless
+
+# Webpack
+.webpack
+
+# Build
+**/www
+
+# Testing
+**.nyc_output
+**/logs
+**/coverage
+**/pacts
